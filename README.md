@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://product.kyobobook.co.kr/detail/S000001032980">
+  <a href="https://www.yes24.com/Product/Goods/92742567">
       <img src="modernJavascript.jpeg" alt="Logo" width="200">
   </a>
   <h1>모던 자바스크립트 Deep Dive</h1>
@@ -16,7 +16,7 @@
 
 ## 📝 목차
 
-- [0주차(OT)]()
+- [0주차(OT)](https://github.com/code-bibliotheca/modern-javascript-deep-dive/blob/main/0%EC%A3%BC%EC%B0%A8/0%EC%A3%BC%EC%B0%A8.md)
 
 <br/><br/>
 
