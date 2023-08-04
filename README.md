@@ -67,6 +67,6 @@
 |  주차   |     날짜      |                                                       내용                                                       | 수종 | 유정 | 지훈 | 지현 | 세영 |
 | :-----: | :-----------: | :--------------------------------------------------------------------------------------------------------------: | :--: | :--: | :--: | :--: | :--: |
 | week_00 | 07-15 ~ 07-21 | [0주차(OT)](https://github.com/code-bibliotheca/modern-javascript-deep-dive/blob/main/0%EC%A3%BC%EC%B0%A8/0%EC%A3%BC%EC%B0%A8.md) |  😀  |  😀  |  😀  |  😀  |  😀  |
-| week_01 | 07-22 ~ 07-28 | [1주차]([https://github.com/code-bibliotheca/effective-typescript/tree/main/1%EC%A3%BC%EC%B0%A8](https://github.com/code-bibliotheca/modern-javascript-deep-dive/tree/main/1%EC%A3%BC%EC%B0%A8)) |  😀  |  😀  |  😀  |  😀  |  😀  |
+| week_01 | 07-22 ~ 07-28 | [1주차](https://github.com/code-bibliotheca/modern-javascript-deep-dive/tree/main/1%EC%A3%BC%EC%B0%A8) |  😀  |  😀  |  😀  |  😀  |  😀  |
 | week_02 | 07-29 ~ 08-04 | [2주차](https://github.com/code-bibliotheca/modern-javascript-deep-dive/tree/main/2%EC%A3%BC%EC%B0%A8) |  😀  |  😀  |  😀  |  ❌  |  😀  |
 | week_03 | 08-05 ~ 08-11 | [3주차]() |    |    |    |    |    |
