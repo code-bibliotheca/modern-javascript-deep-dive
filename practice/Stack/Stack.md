@@ -6,6 +6,10 @@
 
 스택의 맨 위에 item을 넣습니다.
 
+## isEmpty()
+
+스택이 비어있다면 true, 아니라면 false를 반환합니다.
+
 ## pop()
 
 마지막 item을 반환합니다.
@@ -19,11 +23,10 @@
 - pop과 달리 마지막 item을 스택에서 빼내지 않습니다.
 - 스택이 비어있는 경우 undefined를 반환합니다.
 
-## from(Array-like)
+## from(array)
 
-유사배열객체(length를 프로퍼티로 갖는 객체로 여기서는 추가로 key 값을 숫자로만 갖는 객체를 입력받는다고 가정함)로부터 Stack을 생성합니다.
+배열을 입력받아 순서대로 stack에 넣습니다.
 
-- 유사배열객체의 0번 value로부터 length - 1 번째 key의 value 순서대로 스택에 저장합니다.
 - 배열 요소들 중 비어있거나 undefined, null 값을 갖는 아이템은 저장하지 않습니다.
 
 ## print()

@@ -1,5 +1,5 @@
 class Stack {
-  #stack;
+  #stack = [];
 
   // do something...!
 }
