@@ -2,6 +2,15 @@ import Stack from "./Stack";
 
 describe("Stack", () => {
   let stack;
+  let log;
+
+  beforeAll(() => {
+    log = jest.spyOn(console, "log").mockImplementation(() => {});
+  });
+
+  afterAll(() => {
+    log.mockRestore();
+  });
 
   beforeEach(() => {
     stack = new Stack();
@@ -51,5 +60,16 @@ describe("Stack", () => {
     expect(() => {
       stack.pop();
     }).toThrow(RangeError);
+  });
+
+  test("print는 맨 위 item부터 바닥까지 모든 item을 순서대로 콘솔에 출력합니다.", () => {
+    const stack = Stack.from([2, 6, -3, 12]);
+    stack.print();
+
+    expect(log).toHaveBeenCalledTimes(4);
+    expect(log.mock.calls[0][0]).toBe(12);
+    expect(log.mock.calls[1][0]).toBe(-3);
+    expect(log.mock.calls[2][0]).toBe(6);
+    expect(log.mock.calls[3][0]).toBe(2);
   });
 });
