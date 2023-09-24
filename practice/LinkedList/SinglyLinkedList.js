@@ -1,15 +1,20 @@
 class Node {
-  #value;
-  #next;
+  _value;
+  _next;
 
-  constructor(value, next) {
-    this.#value = value;
-    this.#next = next;
+  constructor(value, next = null) {
+    this._value = value;
+    this._next = next;
   }
+
+  // ... do something...!
 }
 
 class SinglyLinkedList {
-  // do something...!
+  #head = null;
+  #tail = null;
+
+  // ... do something...!
 }
 
-export default SinglyLinkedList;
+export { SinglyLinkedList as default, Node };
