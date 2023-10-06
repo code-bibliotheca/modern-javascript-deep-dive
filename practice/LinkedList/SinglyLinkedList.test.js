@@ -1,4 +1,4 @@
-import SinglyLinkedList, { Node } from "./SinglyLinkedList.수종";
+import SinglyLinkedList, { Node } from "./SinglyLinkedList";
 
 describe("SinglyLinkedList", () => {
   test("1-1. 배열을 입력받아 배열의 각 요소를 값으로 갖는 노드들의 연결 리스트를 생성합니다.", () => {
